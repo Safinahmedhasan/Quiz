@@ -1,3 +1,7 @@
+document.getElementById('submit-btn').addEventListener('click' , function(){
+  window.location.href = 'inside.html';
+})
+
 // global variable declaration
 let count = 0;
 let timer;
@@ -181,3 +185,5 @@ document.querySelector("#submit").addEventListener("click", () => {
   }, 1500);
   window.scrollTo(0, 0);
 });
+
+
